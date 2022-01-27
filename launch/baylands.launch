@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<launch>
+  <arg name="world_name" default="baylands"/>
+  <arg name="args" default=""/>
+
+  <include file="$(find marcus_gazebo)/launch/basic.launch">
+    <arg name="world" value="$(find marcus_gazebo)/worlds/$(arg world_name).world"/>
+    <arg name="args" default="$(arg args)"/>
+  </include>
+
+</launch>
