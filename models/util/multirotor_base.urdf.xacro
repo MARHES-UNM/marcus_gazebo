@@ -123,7 +123,7 @@
       <visual>
         <geometry>
           <!-- <cylinder length="0.005" radius="${radius_rotor}"/> --> <!-- [m] -->
-          <mesh filename="package://ardupilot_gazebo/models/util/propeller_${direction}.dae"
+          <mesh filename="package://marcus_gazebo/models/util/propeller_${direction}.dae"
             scale="${prop_scale} ${prop_scale} ${prop_scale}" />
           <!-- <box size="${2*radius_rotor} 0.01 0.005"/> -->
         </geometry>
