@@ -41,7 +41,7 @@
   </xacro:property>
   
   <!-- Included URDF Files -->
-  <xacro:include filename="$(find ardupilot_gazebo)/models/util/multirotor_base.urdf.xacro" />
+  <xacro:include filename="$(find marcus_gazebo)/models/util/multirotor_base.urdf.xacro" />
 
   <!-- Instantiate multirotor_base_macro once -->
   <xacro:multirotor_base_macro
